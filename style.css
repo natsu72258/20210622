@@ -1,0 +1,198 @@
+@import url("reset.css");
+*{
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+	font-family: "Microsoft JhengHei","Heiti TC","sans-serif";
+}
+img{
+    display: block;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/*--------------------------------------------------------------*/
+header{
+    background-color: #FFBF81;
+    width: 100%;
+    height: 97px;
+}
+header > nav{
+    position: relative;
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+header > nav > h1{
+    line-height: 97px;
+    font-size: 18px;
+    float: left;
+    color: #000;
+    margin-right: 20px;
+}
+header > nav > div {
+    width: 100%;
+    height: 100%;
+}
+header > nav > div > a{
+    display: block;
+    line-height: 97px;
+    font-size: 15px;
+    float: left;
+    color: #000;
+    padding: 0 10px;
+    text-decoration:none;
+}
+a#moblie_menu{
+    display: none;
+}
+/*--------------------------------------------------------------*/
+article{
+    width: 100%;
+    height: 578px;
+    background-size: cover;
+    background-image:        url('https://travel.taichung.gov.tw/Utility/DisplayImage?id=24333');
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article > div{
+    width: 100%;
+    height: 578px;
+    background-color: rgb(0, 0, 0, 0.3);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article > div > div > h3{
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+}
+article > div > div > p{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 3em;
+}
+/*--------------------------------------------------------------*/
+aside{
+    width: 100%;
+    height: 245px;
+    background-color: #7EC4CF;
+}
+aside > .mid{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+aside > .mid > .text_content{
+    width: 60%;
+    height: 100%;
+    float: left;
+    
+}
+aside > .mid > .text_content >h3{
+    line-height: 245px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 35px;
+    
+}
+aside > .mid > a{
+    display: block;
+    width: 35%;
+    height: 100%;
+    float: right;
+    background-image: url("https://i1.wp.com/boo2k.com/wp-content/uploads/2600/07/3C1A9065.jpg?resize=860%2C573&ssl=1");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+/*--------------------------------------------------------------*/
+main{
+    width: 100%;
+    height: 294px;
+    background-color: #FFDC5E;
+}
+main > .mid{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FFDC5E;
+}
+
+main > .mid > div{
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+}
+.box1{
+    cursor: pointer;
+}
+
+.box1 > p{
+    margin-top:100px;
+    line-height: 50px;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 40px;
+}
+.box2{
+    background-image: url("https://img.ltn.com.tw/Upload/playing/page/2019/11/20/191120-18750-2-zfTLI.jpg");
+    background-size: cover;
+  background-position: 20% 20%;
+}
+.box3{
+    background-image: url("https://photo.s3.com.tw/look/Upload/BlogArticleImages/4637/20190731181048977_700_0_80.jpg");
+    background-size: cover;
+   background-position: 50% 70%;
+}
+/*--------------------------------------------------------------*/
+footer{
+    width: 100%;
+    height: 562px;
+    background-color: #C9D7F8;
+}
+footer > div{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+}
+.left_box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 3%;
+}
+.right_box{
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-top: 15.5%;
+}
+
+.left_box > h4{
+    color: #088ca5;
+    font-size: 30px;
+    padding: 15% 11% 3% 0%;
+}
+
+.left_box > iframe{
+     width: 80%;
+     height: 50%;
+}
+
+.right_box > iframe{
+     width: 80%;
+     height: 67%;
+}
